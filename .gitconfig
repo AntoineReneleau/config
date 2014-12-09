@@ -1,12 +1,16 @@
 [user]
-  name = Antoine Reneleau
-  email = antoine@reneleau.fr
+  name = Antoine RENELEAU
+	email = antoine@reneleau.fr
 
 [alias]
+  st = status
+  df = diff
   co = checkout
   ci = commit
-  st = status
   br = branch
+
+[push]
+	default = simple
 
 [color]
     ui = auto
