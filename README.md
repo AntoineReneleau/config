@@ -6,9 +6,9 @@
 
 | File | Description |
 | --- | --- |
-| `.bash-profile` | Customizes the Terminal.app prompt and echos the currently checked out Git branch. |
+| `.zshrc` | Customizes the zsh prompt. |
 | `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
-| `.gitignore` | The ignore file from [twbs/bootstrap](https://github.com/twbs/bootstrap) that I use everywhere. |
+| `.gitignore` | The ignore file. |
 | `Preferences.sublime-settings` | My Sublime Text 2 user preferences. |
 
 ## Checklist
@@ -20,10 +20,6 @@
 
 ### 2. Download dependencies
 
-- Install [rbenv](https://github.com/sstephenson/rbenv)
-- Install [a Ruby version](https://github.com/sstephenson/rbenv#installing-ruby-versions) (last one I used was `1.9.3-p551`)
-  - Set a [global Ruby version](https://github.com/sstephenson/rbenv#rbenv-global)
-- Install common gems: `$ gem install sass jekyll rouge`
 - Download and run the [Node.js Mac installer](http://nodejs.org/download/)
 - Install Grunt command line tools: `$ npm install -g grunt-cli`
 
@@ -32,10 +28,11 @@
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
 - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled
 
-### 4. Prep Terminal.app
-
-- Load [`.bash_profile`](/master/.bash_profile)
+### 4. Prep Oh-My-Zsh
+- Install from[`the repo`](https://github.com/robbyrussell/oh-my-zsh)
+- Load [`.zshrc`](/master/.zshrc)
 - Load [`.gitconfig`](/master/.gitconfig) contents into the global `~/.gitconfig`
+- Load [`.gitignore`](/master/.gitignore) contents into the global `~/.gitignore`
 - Tweak color scheme
 
 ### 5. Tweak Sublime Text 2 just right
@@ -49,13 +46,3 @@ import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4b
   - [Spacegray theme](http://kkga.github.io/spacegray/) 
   - [Sass](http://sass-lang.com) package
 - Load user settings from [`Preferences.sublime-settings`](/master/Preferences.sublime-settings)
-
-## Use it yourself
-
-Fork this repo, or just copy-paste things you need, and make it your own. **Please be sure to change your `.gitconfig` name and email address though!**
-
-## Works on my machine
-
-Yup, it does. Hopefully it does on yours as well, but please don't hate me if it doesn't.
-
-<3
