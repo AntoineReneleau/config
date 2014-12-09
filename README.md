@@ -29,11 +29,11 @@
 - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled
 
 ### 4. Prep Oh-My-Zsh
-- Install from[`the repo`](https://github.com/robbyrussell/oh-my-zsh)
+- Install [`Oh-my-zsh`](https://github.com/robbyrussell/oh-my-zsh)
+- Install [`agnoster theme`](https://github.com/robbyrussell/oh-my-zsh/wiki/themes#agnoster)
 - Load [`.zshrc`](/master/.zshrc)
 - Load [`.gitconfig`](/master/.gitconfig) contents into the global `~/.gitconfig`
 - Load [`.gitignore`](/master/.gitignore) contents into the global `~/.gitignore`
-- Tweak color scheme
 
 ### 5. Tweak Sublime Text 2 just right
 
