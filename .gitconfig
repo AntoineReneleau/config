@@ -33,3 +33,11 @@
   pager = cat
   whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
   excludesfile = ~/.gitignore
+[diff]
+  mnemonicPrefix = true
+  renames = true
+  wordRegex = .
+[log]
+  abbrevCommit = true
+[merge]
+  conflictStyle = diff3
