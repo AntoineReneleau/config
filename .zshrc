@@ -81,6 +81,7 @@ alias fetch='git fetch'
 alias st='git status'
 alias df='git diff'
 alias co='git checkout'
+alias addp='git add -p'
 alias ci='git commit'
 alias br='git branch'
 
