@@ -8,9 +8,10 @@
   co = checkout
   ci = commit
   br = branch
+  lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ar)%Creset'
 
 [push]
-	default = simple
+  default = simple
 
 [color]
     ui = auto
