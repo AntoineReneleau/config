@@ -73,6 +73,7 @@ alias vi=vim
 alias wow="git status"
 alias gti="git"
 alias log='git log'
+alias lg='git lg'
 alias diff='git diff'
 alias branch='git branch'
 alias fetch='git fetch'
