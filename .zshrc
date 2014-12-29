@@ -98,5 +98,8 @@ alias master='git co master'
 alias bi="bower install"
 alias bis="bower install -S"
 
+## Symfony
+alias sf="php app/console"
+
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
