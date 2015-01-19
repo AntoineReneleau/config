@@ -12,6 +12,9 @@
 
 [push]
   default = simple
+  
+[status]
+  shountrackedfiles = all
 
 [color]
   ui = auto
