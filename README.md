@@ -31,11 +31,11 @@
 ### 4. Prep Oh-My-Zsh
 - Install [`iTerm2`](http://iterm2.com/downloads.html)
 - Install [`Oh-my-zsh`](https://github.com/robbyrussell/oh-my-zsh)
-- Load [`.zshrc`](/master/.zshrc)
+- Load [`.zshrc`](/.zshrc)
 - (Install [`agnoster theme`](https://github.com/robbyrussell/oh-my-zsh/wiki/themes#agnoster))
 - Install [`a powerline patched font`](https://github.com/powerline/fonts)
-- Load [`.gitconfig`](/master/.gitconfig) contents into the global `~/.gitconfig`
-- Load [`.gitignore`](/master/.gitignore) contents into the global `~/.gitignore`
+- Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
+- Load [`.gitignore`](/.gitignore) contents into the global `~/.gitignore`
 
 ### 5. Tweak Sublime Text 2 just right
 
@@ -44,4 +44,4 @@
   - [Spacegray theme](http://kkga.github.io/spacegray/) 
   - [Sass](http://sass-lang.com) package
   - [Twig](https://github.com/Anomareh/PHP-Twig.tmbundle) package
-- Load user settings from [`Preferences.sublime-settings`](/master/Preferences.sublime-settings)
+- Load user settings from [`Preferences.sublime-settings`](/Preferences.sublime-settings)
