@@ -21,7 +21,12 @@
 ### 2. Download dependencies
 
 - Download and run the [Node.js Mac installer](http://nodejs.org/download/)
-- Install Grunt command line tools: `$ npm install -g grunt-cli`
+- Download and "install" composer :
+
+`curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer`
+- Install Grunt command line tools:
+
+`npm install -g grunt-cli`
 
 ### 3. Secure Git(Hub) access
 
