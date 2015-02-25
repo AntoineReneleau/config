@@ -1,0 +1,15 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"DocBlockr",
+		"GitGutter",
+		"LESS",
+		"Package Control",
+		"PHP-Twig",
+		"Theme - Fox",
+		"WordHighlight"
+	]
+}

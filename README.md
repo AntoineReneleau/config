@@ -9,7 +9,8 @@
 | `.zshrc` | Customizes the zsh prompt. |
 | `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
 | `.gitignore` | The ignore file. |
-| `Preferences.sublime-settings` | My Sublime Text 2 user preferences. |
+| `Preferences.sublime-settings` | My Sublime Text 3 user preferences. |
+| `Package Control.sublime-settings` | My Sublime Text 3 packages. |
 
 ## Checklist
 
@@ -42,11 +43,8 @@
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
 - Load [`.gitignore`](/.gitignore) contents into the global `~/.gitignore`
 
-### 5. Tweak Sublime Text 2 just right
+### 5. Tweak Sublime Text 3 just right
 
-- Install [`Package Control`](https://packagecontrol.io/installation#st2)
-- Install and load packages (`Cmd-Shift-P`):
-  - [Spacegray theme](http://kkga.github.io/spacegray/) 
-  - [Sass](http://sass-lang.com) package
-  - [Twig](https://github.com/Anomareh/PHP-Twig.tmbundle) package
+- Install [`Package Control`](https://packagecontrol.io/installation#st3)
+- Load packages from [`Package Control.sublime-settings`](/Package Control.sublime-settings)
 - Load user settings from [`Preferences.sublime-settings`](/Preferences.sublime-settings)
