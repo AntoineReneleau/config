@@ -9,7 +9,8 @@
 | `.zshrc` | Customizes the zsh prompt. |
 | `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
 | `.gitignore` | The ignore file. |
-| `Preferences.sublime-settings` | My Sublime Text 2 user preferences. |
+| `Preferences.sublime-settings` | My Sublime Text 3 user preferences. |
+| `Package Control.sublime-settings` | My Sublime Text 3 packages. |
 
 ## Checklist
 
