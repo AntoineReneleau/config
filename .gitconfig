@@ -42,5 +42,3 @@
   wordRegex = .
 [log]
   abbrevCommit = true
-[merge]
-  conflictStyle = diff3
