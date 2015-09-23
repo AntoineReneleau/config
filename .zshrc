@@ -29,12 +29,12 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 
-DEFAULT_USER="antoine@antoine"
+DEFAULT_USER="antoine"
 
 # Aliases
 
 ## Tools
-alias subl='sublime-text' 
+alias subl='/opt/sublime_text/sublime_text' 
 
 ## Shortcuts
 alias ll='ls -al'
@@ -48,24 +48,29 @@ alias gti="git"
 alias log='git log'
 alias lg='git lg'
 alias diff='git diff'
+alias diffs='git diff --staged'
 alias branch='git branch'
+alias rebase='git rebase'
+alias squash='git rebase -i --autosquash'
 alias fetch='git fetch'
 
 alias st='git status'
 alias df='git diff'
 alias co='git checkout'
+alias add='git add'
 alias addp='git add -p'
 alias ci='git commit'
+alias fixup='git commit --fixup'
 alias br='git branch'
 
-alias push='git push origin head'
+alias push='git push'
 alias pull='git pull'
 alias fp='fetch && pull'
 alias gmm='git merge master'
 alias recent='git for-each-ref --sort=-committerdate refs/heads/'
 
 ## Git branch switching
-alias master='git co master'
+alias cm='git co master'
 
 ## Bower
 alias bi="bower install"
@@ -76,3 +81,5 @@ alias sf="php app/console"
 
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+cd ~/www
