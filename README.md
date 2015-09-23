@@ -42,6 +42,7 @@
 - Install [`a powerline patched font`](https://github.com/powerline/fonts)
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
 - Load [`.gitignore`](/.gitignore) contents into the global `~/.gitignore`
+- Install [thefuck](https://github.com/nvbn/thefuck)
 
 ### 5. Tweak Sublime Text 3 just right
 
