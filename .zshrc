@@ -34,10 +34,11 @@ DEFAULT_USER="antoine"
 # Aliases
 
 ## Tools
-alias subl='/opt/sublime_text/sublime_text' 
+alias subl='/opt/sublime_text/sublime_text'
 
 ## Shortcuts
 alias ll='ls -al'
+alias s=ssh
 alias editgit='subl ~/.gitconfig'
 alias editbash='subl ~/.zshrc'
 alias resource='source ~/.zshrc && echo "Done!"'
@@ -53,6 +54,8 @@ alias branch='git branch'
 alias rebase='git rebase'
 alias squash='git rebase -i --autosquash'
 alias fetch='git fetch'
+alias merge='git merge'
+alias stash='git stash'
 
 alias st='git status'
 alias df='git diff'
@@ -70,6 +73,7 @@ alias gmm='git merge master'
 alias recent='git for-each-ref --sort=-committerdate refs/heads/'
 
 ## Git branch switching
+alias cmp='git co master && git pull'
 alias cm='git co master'
 
 ## Bower
@@ -79,7 +83,12 @@ alias bis="bower install -S"
 ## Symfony
 alias sf="php app/console"
 
+alias chhvm="hhvm /usr/local/bin/composer"
+
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
 cd ~/www
+
+export THEFUCK_REQUIRE_CONFIRMATION=false
+eval $(thefuck --alias)
