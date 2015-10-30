@@ -4,10 +4,8 @@
 	],
 	"installed_packages":
 	[
-		"1337 Color Scheme",
 		"Alignment",
 		"Babel",
-		"Babel Snippets",
 		"DocBlockr",
 		"GitGutter",
 		"LESS",
@@ -16,8 +14,6 @@
 		"PHP Getters and Setters",
 		"PHP-Twig",
 		"PhpNamespace",
-		"Theme - Cyanide",
-		"Theme - Fox",
 		"TrailingSpaces",
 		"Unicode Character Highlighter",
 		"WordHighlight"
