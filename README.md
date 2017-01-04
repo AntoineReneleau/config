@@ -18,16 +18,13 @@
 
 - Install [brew](http://brew.sh/)
 - Download and run the [Node.js Mac installer](https://nodejs.org/en/)
-- Download and "install" composer :
-`curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer`
+- Download and "install" composer : `curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer`
 
 ### 4. Prep Oh-My-Zsh
 - Install [`iTerm2`](http://iterm2.com/downloads.html)
-- Install [`Oh-my-zsh`](https://github.com/robbyrussell/oh-my-zsh) `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-- Load [`.zshrc`](https://raw.githubusercontent.com/AntoineReneleau/config/master/.zshrc)
 - Install [`Menlo for Powerline font`](https://github.com/abertsch/Menlo-for-Powerline/raw/master/Menlo%20for%20Powerline.ttf) and add it to iTerm' profile
-- Load [`.gitconfig`](https://raw.githubusercontent.com/AntoineReneleau/config/master/.gitconfig) contents into the global `~/.gitconfig`
-- Load [`.gitignore`](https://raw.githubusercontent.com/AntoineReneleau/config/master/.gitignore) contents into the global `~/.gitignore`
+- Install [`Oh-my-zsh`](https://github.com/robbyrussell/oh-my-zsh) `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+- Load [`.zshrc`](https://raw.githubusercontent.com/AntoineReneleau/config/master/.zshrc) [`.zshaliases`](https://raw.githubusercontent.com/AntoineReneleau/config/master/.zshaliases) [`.gitconfig`](https://raw.githubusercontent.com/AntoineReneleau/config/master/.gitconfig) [`.gitignore`](https://raw.githubusercontent.com/AntoineReneleau/config/master/.gitignore) into `~`
 - Install [thefuck](https://github.com/nvbn/thefuck) `brew install thefuck`
 
 ### 5. Secure Git(Hub) access
