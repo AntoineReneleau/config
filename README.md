@@ -8,6 +8,7 @@
 
 - Download and install Xcode command line tools `xcode-select --install`
 - Install [docker](https://www.docker.com/products/docker)
+- Install [ClipMenu](http://www.clipmenu.com/) and [SizeUp](http://www.irradiatedsoftware.com/sizeup/)
 
 ### 2. Tweak Atom just right
 
