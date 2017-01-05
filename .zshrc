@@ -28,67 +28,15 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-
 DEFAULT_USER="antoine"
 
 # Aliases
-
-## Tools
-alias subl='/opt/sublime_text/sublime_text'
-
-## Shortcuts
-alias ll='ls -al'
-alias s=ssh
-alias editgit='subl ~/.gitconfig'
-alias editbash='subl ~/.zshrc'
-alias resource='source ~/.zshrc && echo "Done!"'
-
-## Git commands
-alias wow="git status"
-alias gti="git"
-alias log='git log'
-alias lg='git lg'
-alias diff='git diff'
-alias diffs='git diff --staged'
-alias branch='git branch'
-alias rebase='git rebase'
-alias squash='git rebase -i --autosquash'
-alias fetch='git fetch'
-alias merge='git merge'
-alias stash='git stash'
-
-alias st='git status'
-alias df='git diff'
-alias co='git checkout'
-alias add='git add'
-alias addp='git add -p'
-alias ci='git commit'
-alias fixup='git commit --fixup'
-alias br='git branch'
-
-alias push='git push'
-alias pull='git pull'
-alias fp='fetch && pull'
-alias gmm='git merge master'
-alias recent='git for-each-ref --sort=-committerdate refs/heads/'
-
-## Git branch switching
-alias cmp='git co master && git pull'
-alias cm='git co master'
-
-## Bower
-alias bi="bower install"
-alias bis="bower install -S"
-
-## Symfony
-alias sf="php app/console"
-
-alias chhvm="hhvm /usr/local/bin/composer"
+source ~/.zshaliases
 
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-cd ~/www
-
 export THEFUCK_REQUIRE_CONFIRMATION=false
 eval $(thefuck --alias)
+
+cd ~/www

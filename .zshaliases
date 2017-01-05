@@ -1,0 +1,60 @@
+# Aliases
+
+alias edit=atom
+
+## Shortcuts
+alias ll='ls -al'
+alias s=ssh
+alias editgit='edit ~/.gitconfig'
+alias editbash='edit ~/.zshrc'
+alias resource='source ~/.zshrc && echo "Done!"'
+
+## Git commands
+alias wow="git status"
+alias gti="git"
+alias log='git log'
+alias lg='git lg'
+alias diff='git diff'
+alias diffs='git diff --staged'
+alias branch='git branch'
+alias rebase='git rebase'
+alias squash='git rebase -i --autosquash'
+alias fetch='git fetch'
+alias merge='git merge'
+alias stash='git stash'
+
+alias st='git status'
+alias df='git diff'
+alias co='git checkout'
+alias add='git add'
+alias addp='git add -p'
+alias ci='git commit'
+alias fixup='git commit --fixup'
+alias br='git branch'
+alias reshead='git reset HEAD'
+
+alias push='git push'
+alias pull='git pull'
+alias fp='fetch && pull'
+alias gmm='git merge master'
+alias recent='git for-each-ref --sort=-committerdate refs/heads/'
+
+### branch switching
+alias cmp='git co master && git pull'
+alias cm='git co master'
+
+## npm
+alias nrun='npm run'
+
+## Docker
+alias d=docker
+alias dc='docker-compose'
+
+## Bower
+alias bi="bower install"
+alias bis="bower install -S"
+
+## Symfony
+alias sf="php app/console"
+
+alias chhvm="hhvm /usr/local/bin/composer"
